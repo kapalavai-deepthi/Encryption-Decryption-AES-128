@@ -15,6 +15,10 @@ The design supports both encryption and decryption modes through a top-level con
 
 ![Encryption](results/encryption_waveform.png.png)
 
+## Decryption Waveform
+
+![Decryption](results/decryption_waveform.png.png)
+
 ## Simulation Output
 
 ![Simulation](results/simulation_output.png.png)
@@ -30,14 +34,33 @@ The design supports both encryption and decryption modes through a top-level con
 
 ## Test Vector
 
+### Encryption
+
 Plaintext:
+
 00112233445566778899aabbccddeeff
 
 Key:
+
 000102030405060708090a0b0c0d0e0f
 
 Ciphertext:
+
 69c4e0d86a7b0430d8cdb78070b4c55a
+
+### Decryption
+
+Ciphertext:
+
+69c4e0d86a7b0430d8cdb78070b4c55a
+
+Key:
+
+000102030405060708090a0b0c0d0e0f
+
+Recovered Plaintext:
+
+00112233445566778899aabbccddeeff
 
 ## Tools Used
 
