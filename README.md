@@ -7,6 +7,18 @@ This project implements AES-128 encryption and decryption in Verilog HDL.
 
 The design supports both encryption and decryption modes through a top-level controller and has been verified using standard AES-128 test vectors.
 
+## Architecture
+
+![Architecture](Docs/AES_Architecture.png.jpg)
+
+## Encryption Waveform
+
+![Encryption](results/encryption_waveform.png.png)
+
+## Simulation Output
+
+![Simulation](results/simulation_output.png.png)
+
 ## Features
 
 * AES-128 Encryption
